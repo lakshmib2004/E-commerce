@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationery Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Stationery World</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login" id="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Quality Stationery for Your Needs</h2>
+            <p>Find the best notebooks, pens, and art supplies all in one place.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>Featured Products</h2>
+        <div class="product-container">
+            <div class="product">
+                <img src="notebook.jpg" alt="Notebook">
+                <h3>Premium Notebook</h3>
+                <p>$10.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="pen.jpg" alt="Pen">
+                <h3>Luxury Pen</h3>
+                <p>$5.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="markers.jpg" alt="Markers">
+                <h3>Color Markers</h3>
+                <p>$8.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="sticky-notes.jpg" alt="Sticky Notes">
+                <h3>Sticky Notes Set</h3>
+                <p>$4.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="eraser.jpg" alt="Eraser">
+                <h3>High-Quality Eraser</h3>
+                <p>$2.49</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ruler.jpg" alt="Ruler">
+                <h3>12-inch Ruler</h3>
+                <p>$3.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="pencil-case.jpg" alt="Pencil Case">
+                <h3>Leather Pencil Case</h3>
+                <p>$12.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="highlighter.jpg" alt="Highlighters">
+                <h3>Fluorescent Highlighters</h3>
+                <p>$6.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="info">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We provide high-quality stationery products for students, artists, and professionals.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@stationeryworld.com</p>
+            <p>Phone: +123 456 7890</p>
+        </section>
+
+        <div id="login-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Login</h2>
+                <input type="text" placeholder="Username" id="username">
+                <input type="password" placeholder="Password" id="password">
+                <button id="submit-login">Login</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Stationery World. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
